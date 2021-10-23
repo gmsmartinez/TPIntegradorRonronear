@@ -15,7 +15,7 @@ class Usuario:
         else:
             return "Tweet enviado"
 
-    def ver_mensajes(self):
+    def verMensajes(self):
         return self.mensajes
 
 #Pensar en mas propiedades o metodos

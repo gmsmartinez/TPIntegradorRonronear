@@ -30,4 +30,4 @@ while (True):
         print("Ingrese una opcion valida")
 
 
-Terminator.guardarTweets(usuario.nombre, usuario.ver_mensajes())
+Terminator.guardarTweets(usuario.nombre, usuario.verMensajes())
