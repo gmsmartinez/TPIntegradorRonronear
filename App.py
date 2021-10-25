@@ -16,10 +16,10 @@ def start_tuitear():
         start = input("¿Queres ingresar tu usuario y contrasenia?: [S/N] ")
         start = start.upper()
         if start == "N":
-            print("En serio?? Somos mejores que facebook!!!")
+            print("En serio?? Somos mejores que Facebook!!!")
             exit()
         if start == "S":
-            print("Bien!! Vamos a tuiear!!!")
+            print("Bien!! Vamos a tuitear!!!")
 start_tuitear()
 
 usuario = Usuario(input("Bienvenido a Pdptwitter, por favor ingrese su nombre de usuario: "))
