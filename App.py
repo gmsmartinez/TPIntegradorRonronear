@@ -30,7 +30,8 @@ while (True):
     print("Bienvenido " + usuario.nombre + " a Pdptwitter, ¿que desea hacer?")
     print("1. Ver mis tweets")
     print("2. Escribir un tweet")
-    print("3. Cerrar sesion")
+    print("3. Ver mis Menciones")
+    print("4. Cerrar Sesion")
     
     opcion = int(input())
     if opcion == 1:
@@ -44,11 +45,28 @@ while (True):
         respuesta = usuario.twittear()
         print(respuesta)
 
+    
+
     elif opcion == 3:
+        
+        print("De cual usuario arrobado queres ver las menciones?")
+        if tweet in usuarioMaria.twittear:
+            print(tweet)
+        elif tweet in usuarioJuan.twittear:
+            print(tweet)
+        elif tweet in usuarioPedro.twittear:
+            print(tweet)
+        
         break
+
+    elif opcion == 4:
+        break
+
+
 
     else:
         print("Ingrese una opcion valida")
+
 
 
 Terminator.guardarTweets(usuario.nombre, usuario.verMensajes())
